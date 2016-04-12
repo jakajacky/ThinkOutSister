@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C328E0AB1CBCD6DA001CE661 /* DRTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328E0AA1CBCD6DA001CE661 /* DRTabBarController.swift */; };
+		C328E0AD1CBCDE46001CE661 /* DRTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328E0AC1CBCDE46001CE661 /* DRTabBar.swift */; };
+		C328E0AF1CBCE977001CE661 /* FriendTrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328E0AE1CBCE977001CE661 /* FriendTrendViewController.swift */; };
+		C328E0B11CBCE995001CE661 /* NewstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328E0B01CBCE995001CE661 /* NewstViewController.swift */; };
+		C328E0B31CBCE9A4001CE661 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328E0B21CBCE9A4001CE661 /* MineViewController.swift */; };
 		C3341ED61CBBB539008F6B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341ED51CBBB539008F6B89 /* AppDelegate.swift */; };
-		C3341ED81CBBB539008F6B89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341ED71CBBB539008F6B89 /* ViewController.swift */; };
+		C3341ED81CBBB539008F6B89 /* EssenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341ED71CBBB539008F6B89 /* EssenceViewController.swift */; };
 		C3341EDB1CBBB539008F6B89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3341ED91CBBB539008F6B89 /* Main.storyboard */; };
 		C3341EDD1CBBB539008F6B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3341EDC1CBBB539008F6B89 /* Assets.xcassets */; };
 		C3341EE01CBBB539008F6B89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3341EDE1CBBB539008F6B89 /* LaunchScreen.storyboard */; };
@@ -34,9 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C328E0AA1CBCD6DA001CE661 /* DRTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRTabBarController.swift; sourceTree = "<group>"; };
+		C328E0AC1CBCDE46001CE661 /* DRTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRTabBar.swift; sourceTree = "<group>"; };
+		C328E0AE1CBCE977001CE661 /* FriendTrendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTrendViewController.swift; sourceTree = "<group>"; };
+		C328E0B01CBCE995001CE661 /* NewstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewstViewController.swift; sourceTree = "<group>"; };
+		C328E0B21CBCE9A4001CE661 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		C3341ED21CBBB539008F6B89 /* ThinkOutSister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkOutSister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3341ED51CBBB539008F6B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3341ED71CBBB539008F6B89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3341ED71CBBB539008F6B89 /* EssenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssenceViewController.swift; sourceTree = "<group>"; };
 		C3341EDA1CBBB539008F6B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3341EDC1CBBB539008F6B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3341EDF1CBBB539008F6B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +84,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C328E0B41CBD0045001CE661 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				C3341ED71CBBB539008F6B89 /* EssenceViewController.swift */,
+			);
+			name = Essence;
+			sourceTree = "<group>";
+		};
+		C328E0B51CBD005E001CE661 /* FriendTrend */ = {
+			isa = PBXGroup;
+			children = (
+				C328E0AE1CBCE977001CE661 /* FriendTrendViewController.swift */,
+			);
+			name = FriendTrend;
+			sourceTree = "<group>";
+		};
+		C328E0B61CBD006B001CE661 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				C328E0B01CBCE995001CE661 /* NewstViewController.swift */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		C328E0B71CBD0073001CE661 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				C328E0B21CBCE9A4001CE661 /* MineViewController.swift */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		C328E0B81CBD0092001CE661 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C3341ED51CBBB539008F6B89 /* AppDelegate.swift */,
+				C328E0AC1CBCDE46001CE661 /* DRTabBar.swift */,
+				C328E0AA1CBCD6DA001CE661 /* DRTabBarController.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 		C3341EC91CBBB539008F6B89 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +149,11 @@
 		C3341ED41CBBB539008F6B89 /* ThinkOutSister */ = {
 			isa = PBXGroup;
 			children = (
-				C3341ED51CBBB539008F6B89 /* AppDelegate.swift */,
-				C3341ED71CBBB539008F6B89 /* ViewController.swift */,
+				C328E0B81CBD0092001CE661 /* Other */,
+				C328E0B71CBD0073001CE661 /* Mine */,
+				C328E0B61CBD006B001CE661 /* News */,
+				C328E0B51CBD005E001CE661 /* FriendTrend */,
+				C328E0B41CBD0045001CE661 /* Essence */,
 				C3341ED91CBBB539008F6B89 /* Main.storyboard */,
 				C3341EDC1CBBB539008F6B89 /* Assets.xcassets */,
 				C3341EDE1CBBB539008F6B89 /* LaunchScreen.storyboard */,
@@ -256,8 +311,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3341ED81CBBB539008F6B89 /* ViewController.swift in Sources */,
+				C3341ED81CBBB539008F6B89 /* EssenceViewController.swift in Sources */,
 				C3341ED61CBBB539008F6B89 /* AppDelegate.swift in Sources */,
+				C328E0AB1CBCD6DA001CE661 /* DRTabBarController.swift in Sources */,
+				C328E0B31CBCE9A4001CE661 /* MineViewController.swift in Sources */,
+				C328E0AF1CBCE977001CE661 /* FriendTrendViewController.swift in Sources */,
+				C328E0B11CBCE995001CE661 /* NewstViewController.swift in Sources */,
+				C328E0AD1CBCDE46001CE661 /* DRTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +542,7 @@
 				C3341EFC1CBBB539008F6B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3341EFD1CBBB539008F6B89 /* Build configuration list for PBXNativeTarget "ThinkOutSisterTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +551,7 @@
 				C3341EFF1CBBB539008F6B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3341F001CBBB539008F6B89 /* Build configuration list for PBXNativeTarget "ThinkOutSisterUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +560,7 @@
 				C3341F021CBBB539008F6B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
