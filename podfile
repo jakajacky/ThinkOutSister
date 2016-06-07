@@ -1,0 +1,9 @@
+platform :ios, '8.0'
+use_frameworks!
+
+    pod 'SwiftyJSON' 
+    pod 'MJRefresh'
+    pod 'DACircularProgress'
+    pod 'Alamofire', '~> 3.0'
+    pod 'Kingfisher'
+    pod 'Bugtags'
